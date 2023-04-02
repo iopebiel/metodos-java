@@ -15,16 +15,15 @@ public class Main {
         Calculadora.divisao(5, 2.5);
 
         // Mensagem
-        System.out.println("Exercício mensagem");
+        System.out.println("\nExercício mensagem");
         Mensagem.obterMensagem(9);
         Mensagem.obterMensagem(14);
         Mensagem.obterMensagem(1);
 
-        // Empréstimo
-        System.out.println("Exercício empréstimo");
+         // Empréstimo
+        System.out.println("\nExercício empréstimo");
         Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
         Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
         Emprestimo.calcular(1000, 5);
-
     }
 }
